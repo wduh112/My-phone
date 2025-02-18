@@ -1,1 +1,9 @@
-# My-phone
+mkdir apps documents photos security videos
+echo "// discord.js\nconsole.log('Launching Discord...');" > apps/discord.js
+echo "// gta5.js\nconsole.log('Launching GTA 5...');" > apps/gta5.js
+echo "// youtube.js\nconsole.log('Launching YouTube...');" > apps/youtube.js
+echo "// encryption.js\nconsole.log('This is the encryption script');" > security/encryption.js
+echo "Name: John Doe\nPassword: 1234abcd\n\nName: Jane Smith\nPassword: qwerty5678\n\nName: Alice Johnson\nPassword: passw0rd!\n\nNumber: 1247" > security/passwords.txt
+echo "node_modules/" > .gitignore
+echo "# My Project\n\nThis is a sample project to demonstrate a fake folder structure.\n\n## Folder Structure\n\n\`\`\`\nmy-project/\n├── apps/\n│   ├── discord.js\n│   ├── gta5.js\n│   └── youtube.js\n├── documents/\n├── photos/\n├── security/\n│   ├── encryption.js\n│   └── passwords.txt\n├── videos/\n├── .gitignore\n├── README.md\n└── package.json\n\`\`\`\n\n## How to Run\n\n1. Install the dependencies:\n\n    \`\`\`bash\n    npm install\n    \`\`\`\n\n2. Run the apps:\n\n    \`\`\`bash\n    node apps/discord.js\n    node apps/gta5.js\n    node apps/youtube.js\n    \`\`\`\n\n## About the Categories\n\n- **apps**: Contains JavaScript applications for Discord, GTA 5, and YouTube.\n- **documents**: Currently empty.\n- **photos**: Currently empty.\n- **security**: Contains security-related files including encryption scripts and passwords.\n- **videos**: Currently empty." > README.md
+echo "{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A sample project to demonstrate a fake folder structure\",\n  \"main\": \"apps/discord.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {},\n  \"author\": \"wduh112\",\n  \"license\": \"MIT\"\n}" > package.json
